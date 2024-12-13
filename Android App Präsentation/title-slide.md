@@ -2,12 +2,12 @@
 
 
 
-## Die Elternklasse View und eine Kindklasse.
+## Die Elternklasse View und eine Kindklasse
 
 Note: This will only appear in the speaker notes window.
 
 
-## Folie 1
+<!-- ## Folie 1
 
 Content 1.2
 
@@ -36,4 +36,4 @@ Content 3.2
 
 ## External 3.4 (Math)
 
-`\[ J(\theta_0,\theta_1) = \sum_{i=0} \]`
+`\[ J(\theta_0,\theta_1) = \sum_{i=0} \]` -->
