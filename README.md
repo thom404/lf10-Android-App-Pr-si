@@ -1,7 +1,18 @@
-### Gliederung
-#### Topic 1
-#### Topic 2
-#### Topic 3
+## Gliederung
+### Die Elternklasse: View
+##### Was ist ein View?
+##### Vererbung von View
+##### Wichtige Methoden
+### Die Kindklasse: ImageView
+##### Was ist ein ImageView?
+##### Wichtige Methoden
+### Code Beispiel von ImageView
+##### XML
+##### Java
+##### Kotlin
+### Bezug zur ToDo-App
+
+---
 
 <p align="center">
   <a href="https://revealjs.com">
