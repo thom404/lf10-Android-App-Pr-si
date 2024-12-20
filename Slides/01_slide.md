@@ -1,23 +1,10 @@
-## Folie 1
+## Was macht eine View allgemein?
 
-Content 1.2
+- Grundbaustein der Benutzeroberfläche in Android
+- Verantwortlich für:
+  - Zeichnen von Inhalten auf dem Bildschirm
+  - Behandlung von Benutzerinteraktionen (z.B. Berührungen)
+  - Verwaltung eigener Größe und Position
+- Basis für spezialisierte UI-Elemente wie Buttons, TextViews, etc.
 
-
-<!-- ## External 3.1
-
-Content 3.1
-
-
-## External 3.2
-
-Content 3.2
-
-
-## External 3.3 (Image)
-
-![External Image](https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png)
-
-
-## External 3.4 (Math)
-
-`\[ J(\theta_0,\theta_1) = \sum_{i=0} \]` -->
+---
