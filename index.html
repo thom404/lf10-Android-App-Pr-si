@@ -5,11 +5,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>reveal.js</title>
+	<title>Android Development Präsentation</title>
 
 	<link rel="stylesheet" href="dist/reset.css">
 	<link rel="stylesheet" href="dist/reveal.css">
-	<link rel="stylesheet" href="dist/theme/white.css">
+	<!-- <link rel="stylesheet" href="dist/theme/white.css"> -->
+	<link rel="stylesheet" href="dist/theme/moon.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -20,15 +22,38 @@
 		<div class="reveal">
 
 			<div class="slides">
-                <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
-                <section data-markdown="/Slides/Title/title.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-                <section data-markdown="/Slides/01_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-                <section data-markdown="/Slides/02_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-                <section data-markdown="/Slides/03_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-                <section data-markdown="/Slides/04_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-                <section data-markdown="/Slides/05_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-                <section data-markdown="/Slides/06_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-                <section data-markdown="/Slides/07_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+
+				<!-- Title Slide -->
+					<section>
+							<h1 class="r-fit-text">Die Elternklasse "View"</h1>
+							<!-- <span>
+								<i class="fa fa-android" style="color:green;"></i>
+								<i class="fa fa-android" style="color:green;"></i>
+								<i class="fa fa-android" style="color:green;"></i>
+								<i class="fa fa-android" style="color:green;"></i>
+							</span> -->
+							<img class="r-stretch" src="./Slides/Title/assets/AndroidStudioLogo.svg" alt="">
+							<h3 class="fragment">... und eine Kindklasse</h3> 
+					</section>
+
+				<!-- Gliederung -->
+				<section data-auto-animate data-markdown="/Slides/Gliederung/Gliederung00.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+				<section data-auto-animate data-markdown="/Slides/Gliederung/Gliederung01.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+				<section data-auto-animate data-markdown="/Slides/Gliederung/Gliederung02.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+				<section data-auto-animate data-markdown="/Slides/Gliederung/Gliederung03.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+				<section data-auto-animate data-markdown="/Slides/Gliederung/Gliederung04.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+				<section data-auto-animate data-markdown="/Slides/Gliederung/Gliederung05.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+				<section data-auto-animate data-markdown="/Slides/Gliederung/Gliederung06.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+				<section data-auto-animate data-markdown="/Slides/Gliederung/Gliederung07.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+				<!-- Gliederung Ende -->
+					
+		        <section data-auto-animate data-markdown="/Slides/01_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+                <section data-auto-animate data-markdown="/Slides/02_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+                <section data-auto-animate data-markdown="/Slides/03_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+                <section data-auto-animate data-markdown="/Slides/04_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+                <section data-auto-animate data-markdown="/Slides/05_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+                <section data-auto-animate data-markdown="/Slides/06_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+                <section data-auto-animate data-markdown="/Slides/07_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
             </div>
 		</div>
 
