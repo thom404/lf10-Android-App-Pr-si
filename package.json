@@ -30,32 +30,32 @@
     "presentation"
   ],
   "devDependencies": {
-    "@babel/core": "^7.23.2",
-    "@babel/eslint-parser": "^7.22.15",
-    "@babel/preset-env": "^7.23.2",
+    "@babel/core": "^7.26.8",
+    "@babel/eslint-parser": "^7.26.8",
+    "@babel/preset-env": "^7.26.8",
     "@rollup/plugin-babel": "^6.0.4",
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-terser": "^0.4.4",
     "babel-plugin-transform-html-import-to-string": "2.0.0",
     "colors": "^1.4.0",
-    "core-js": "^3.33.1",
-    "fitty": "^2.3.7",
-    "glob": "^10.3.10",
+    "core-js": "^3.40.0",
+    "fitty": "^2.4.2",
+    "glob": "^11.0.1",
     "gulp": "^5.0.0",
-    "gulp-autoprefixer": "^8.0.0",
+    "gulp-autoprefixer": "^9.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-connect": "^5.7.0",
     "gulp-eslint": "^6.0.0",
     "gulp-header-comment": "^0.10.0",
-    "gulp-zip": "^5.1.0",
-    "highlight.js": "^11.9.0",
-    "marked": "^4.3.0",
+    "gulp-zip": "^6.1.0",
+    "highlight.js": "^11.11.1",
+    "marked": "^15.0.7",
     "node-qunit-puppeteer": "^2.2.0",
+    "qunit": "^2.24.1",
+    "rollup": "^4.34.7",
+    "sass": "^1.85.0",
     "through2": "^4.0.2",
-    "qunit": "^2.22.0",
-    "rollup": "^4.1.5",
-    "sass": "^1.79.4",
     "yargs": "^17.7.2"
   },
   "overrides": {
@@ -105,5 +105,8 @@
       "no-unused-expressions": 0
     }
   },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "dependencies": {
+    "reveal.js": "^5.1.0"
+  }
 }
