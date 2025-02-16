@@ -9,5 +9,5 @@ log/*.log
 tmp/**
 node_modules/
 .sass-cache
-.yarn.lock
+yarn.lock
 package-lock.json
