@@ -1,7 +1,7 @@
-# Code Beispiele
+# 👨‍💻 Code Beispiele
 
 
-## ImageView in XML <!-- .element: class="fragment semi-fade-out shrink" style="" -->
+## </> ImageView in XML <!-- .element: class="fragment semi-fade-out shrink" style="" -->
 <pre>
     <code data-trim data-noescape data-line-numbers="1|2|3|4|5|6|7">
         <script type="text/template">
@@ -17,7 +17,7 @@
 </pre> <!-- .element: class="fragment r-frame" style="" -->
 
 
-## ImageView in Java <!-- .element: class="fragment semi-fade-out shrink" style="" -->
+## ♨️ ImageView in Java <!-- .element: class="fragment semi-fade-out shrink" style="" -->
 <pre>
     <code data-trim data-noescape data-line-numbers="5|7-9|11-14|">
         <script type="text/template">
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 </pre> <!-- .element: class="fragment r-frame" style="" -->
 
 
-## ImageView in Kotlin <!-- .element: class="fragment semi-fade-out shrink" style="" -->
+## 🇰 ImageView in Kotlin <!-- .element: class="fragment semi-fade-out shrink" style="" -->
 <pre>
     <code data-trim data-noescape data-line-numbers="5|6-8|10-13|">
         <script type="text/template">
