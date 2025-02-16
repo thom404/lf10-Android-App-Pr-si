@@ -18,7 +18,9 @@
 
 
 ## Wichtige Methoden der View-Klasse <!-- .element: class="fragment semi-fade-out shrink" style="" -->
-<pre><code data-ln-start-from="1" data-line-numbers="1-2|4-5|7-8|10-11" data-trim >
+<pre>
+    <code data-trim data-noescape data-line-numbers="1-2|4-5|7-12|14-15">
+        <script type="text/template">
   /*View zeichnen */
   onDraw(Canvas canvas)
   
@@ -26,9 +28,14 @@
   onMeasure(int widthMeasureSpec, int heightMeasureSpec)
   
   /*Positioniert Kinder */
-  onLayout(boolean changed, int left, int top, int right, int bottom)
+  onLayout(
+    boolean changed, 
+    int left, int top, 
+    int right, int bottom
+    )
   
   /*Verarbeitet Touch-Events */
   `onTouchEvent(MotionEvent event)`
+  </script>
 </code></pre>
-<!-- .element: class="fragment fade-in fade-up" style="" -->
+<!-- .element: class="fragment r-frame" style="" -->
