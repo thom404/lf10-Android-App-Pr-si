@@ -32,3 +32,19 @@
   `onTouchEvent(MotionEvent event)`
 </code></pre>
 <!-- .element: class="fragment fade-in fade-up" style="" -->
+
+
+## View-Klassen Übersicht <!-- .element: data-fragment-index="1" class="fragment semi-fade-out shrink" style="" -->
+<pre class="mermaid fragment grow" style="box-shadow: none; text-align: center" data-fragment-index="1">
+flowchart TD;
+    A[View] --- B[ImageView]
+    A --- C[TextView]
+    A --- D[ViewGroup]
+
+    C --- F[Button]
+    
+    D --- G[FrameLayout]
+    D --- H[RelativeLayout]
+
+    linkStyle default stroke:beige
+</pre> 

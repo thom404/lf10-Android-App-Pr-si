@@ -1,86 +1,165 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Android Development Präsentation</title>
 
-	<title>Android Development Präsentation</title>
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <!-- <link rel="stylesheet" href="dist/theme/white.css"> -->
+    <link rel="stylesheet" href="dist/theme/moon.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-	<link rel="stylesheet" href="dist/reset.css">
-	<link rel="stylesheet" href="dist/reveal.css">
-	<!-- <link rel="stylesheet" href="dist/theme/white.css"> -->
-	<link rel="stylesheet" href="dist/theme/moon.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
 
-	<!-- Theme used for syntax highlighted code -->
-	<link rel="stylesheet" href="plugin/highlight/monokai.css">
-</head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Title Slide -->
+        <section
+          data-auto-animate
+          data-markdown="/Slides/00Titel/01_slide.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+        ></section>
+        <!-- Title Slide Ende -->
 
-	<body>
+        <!-- Gliederung -->
+        <section
+          data-auto-animate
+          data-markdown="/Slides/01Gliederung/01_slide.md"
+        ></section>
+        <section
+          data-auto-animate
+          data-markdown="/Slides/01Gliederung/02_slide.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+        ></section>
+        <section
+          data-auto-animate
+          data-markdown="/Slides/01Gliederung/03_slide.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+        ></section>
+        <section
+          data-auto-animate
+          data-markdown="/Slides/01Gliederung/04_slide.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+        ></section>
+        <section
+          data-auto-animate
+          data-markdown="/Slides/01Gliederung/05_slide.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+        ></section>
+        <section
+          data-auto-animate
+          data-markdown="/Slides/01Gliederung/06_slide.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+        ></section>
+        <section
+          data-auto-animate
+          data-markdown="/Slides/01Gliederung/07_slide.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+        ></section>
+        <section
+          data-auto-animate
+          data-markdown="/Slides/01Gliederung/08_slide.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+        ></section>
+        <!-- Gliederung Ende -->
 
-		<div class="reveal">
+        <!-- Elternklasse View -->
+        <section
+          data-auto-animate
+          data-markdown="/Slides/02View/01_slide.md"
+          data-separator="^\r?\n\r?\n\r?\n\r?\n\r?\n\r?\n"
+          data-separator-vertical="^\r?\n\r?\n"
+        ></section>
+        <!-- View Ende-->
 
-			<div class="slides">
+        <!-- Kindklasse ImageView -->
+        <!-- TODO: Bullet Points für ImageView Dynmaisch einblenden -->
+        <!-- TODO: Animationen -->
+        <section
+          data-markdown="/Slides/03ImageView/01_slide.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+        ></section>
+        <!-- ImageView Ende -->
 
-				<!-- Title Slide -->
-				<section data-auto-animate data-markdown="/Slides/00Titel/01_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<!-- Title Slide Ende -->
+        <!-- CodeBeispiel -->
+        <!-- TODO: CodeBeispiele dynmaisch einblenden -->
+        <!-- TODO: Animationen -->
+        <section
+          data-auto-animate
+          data-markdown="/Slides/04CodeBeispiel/01_slide.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+        ></section>
+        <section
+          data-auto-animate
+          data-markdown="/Slides/04CodeBeispiel/02_slide.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+        ></section>
+        <section
+          data-auto-animate
+          data-markdown="/Slides/04CodeBeispiel/03_slide.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+        ></section>
+        <!-- CodeBeispiel Ende-->
 
-				<!-- Gliederung -->
-				<section data-auto-animate data-markdown="/Slides/01Gliederung/01_slide.md"></section>
-				<section data-auto-animate data-markdown="/Slides/01Gliederung/02_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<section data-auto-animate data-markdown="/Slides/01Gliederung/03_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<section data-auto-animate data-markdown="/Slides/01Gliederung/04_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<section data-auto-animate data-markdown="/Slides/01Gliederung/05_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<section data-auto-animate data-markdown="/Slides/01Gliederung/06_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<section data-auto-animate data-markdown="/Slides/01Gliederung/07_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<section data-auto-animate data-markdown="/Slides/01Gliederung/08_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<!-- Gliederung Ende -->
-					
-				<!-- Elternklasse View -->
-				<section data-markdown="/Slides/02View/01_slide.md" data-separator="^\r?\n\r?\n\r?\n\r?\n" data-separator-vertical="^\r?\n\r?\n"></section>
-				<!-- View Ende-->
+        <!-- Bezug zur App -->
+        <!-- TODO: Content einfügen -->
+        <section
+          data-auto-animate
+          data-markdown="/Slides/05Bezug/01_slide.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+        ></section>
+        <!-- Bezug zur App Ende -->
+      </div>
+    </div>
 
-				<!-- Kindklasse ImageView -->
-				 <!-- TODO: Bullet Points für ImageView Dynmaisch einblenden -->
-				 <!-- TODO: Animationen -->
-				<section data-markdown="/Slides/03ImageView/01_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<!-- ImageView Ende -->
+    <script src="../dist/reveal.js"></script>
+    <script src="../plugin/markdown/markdown.js"></script>
+    <script src="../plugin/highlight/highlight.js"></script>
+    <script src="../plugin/notes/notes.js"></script>
+    <script src="../plugin/math/math.js"></script>
+    <script type="module">
+      import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+      mermaid.initialize({ theme: "forest", startOnLoad: true });
+    </script>
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
 
-				<!-- CodeBeispiel -->
-				 <!-- TODO: CodeBeispiele dynmaisch einblenden -->
-				 <!-- TODO: Animationen -->
-				<section data-auto-animate data-markdown="/Slides/04CodeBeispiel/01_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<section data-auto-animate data-markdown="/Slides/04CodeBeispiel/02_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<section data-auto-animate data-markdown="/Slides/04CodeBeispiel/03_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<!-- CodeBeispiel Ende-->
-
-				<!-- Bezug zur App -->
-				 <!-- TODO: Content einfügen -->
-				<section data-auto-animate data-markdown="/Slides/05Bezug/01_slide.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<!-- Bezug zur App Ende -->
-            </div>
-		</div>
-
-		<script src="../dist/reveal.js"></script>
-        <script src="../plugin/markdown/markdown.js"></script>
-        <script src="../plugin/highlight/highlight.js"></script>
-        <script src="../plugin/notes/notes.js"></script>
-        <script src="../plugin/math/math.js"></script>
-
-		<script>
-
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
-
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
-			});
-
-		</script>
-
-	</body>
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealNotes,
+          RevealMath.KaTeX,
+        ],
+      });
+    </script>
+  </body>
 </html>
