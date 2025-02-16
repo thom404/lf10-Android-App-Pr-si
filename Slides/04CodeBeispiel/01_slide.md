@@ -19,12 +19,24 @@
 
 ## ImageView in Java <!-- .element: class="fragment semi-fade-out shrink" style="" -->
 <pre>
-    <code data-trim data-noescape data-line-numbers="1-1|2-2|3-3|4-4|">
+    <code data-trim data-noescape data-line-numbers="5|7-9|11-14|">
         <script type="text/template">
-ImageView imageView = findViewById(R.id.imageView);
-imageView.setImageResource(R.drawable.example_image);
-imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-imageView.setContentDescription("Beispielbild");
+import android.os.Bundle;
+import android.widget.ImageView;
+import androidx.appcompat.app.AppCompatActivity;
+ 
+public class MainActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+ 
+        ImageView imageView = findViewById(R.id.imageView);
+        imageView.setImageResource(R.drawable.example_image);
+        imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+        imageView.setContentDescription("Beispielbild");
+    }
+}
         </script>
     </code>
 </pre> <!-- .element: class="fragment r-frame" style="" -->
@@ -37,12 +49,12 @@ imageView.setContentDescription("Beispielbild");
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-
+ 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+ 
         val imageView: ImageView = findViewById(R.id.imageView)
         imageView.setImageResource(R.drawable.example_image)
         imageView.scaleType = ImageView.ScaleType.CENTER_CROP
