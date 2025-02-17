@@ -16,8 +16,10 @@
 - Definiert grundlegende Eigenschaften wie Größe, Position und Layout <!-- .element: class="fragment fade-in-then-semi-out shrink fade-up" style="" -->
 - Ermöglicht die Erstellung benutzerdefinierter UI-Komponenten <!-- .element: class="fragment fade-in-then-semi-out shrink fade-up" style="" -->
 
+
 ## Vererbung der View-Klasse <!-- .element: class="fragment semi-fade-out shrink" style="" -->
 <img data-src="./Slides/assets/Diagramm.svg"  height="500" width="1000"> <!-- .element: class="fragment fade-in" style="" -->
+
 
 ## ⚠️ Wichtige Methoden der View-Klasse <!-- .element: class="fragment semi-fade-out shrink" style="" -->
 <pre>
