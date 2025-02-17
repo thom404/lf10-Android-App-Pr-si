@@ -1,4 +1,4 @@
-# 👨👩 Die Elternklasse "View"
+# 👨👩<br>Die Elternklasse "View"
 
 
 ## 🏞️ Was versteht man überhaupt unter einer View? <!-- .element: class="fragment semi-fade-out shrink" style="" -->
