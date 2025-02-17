@@ -1,4 +1,6 @@
-# 👨👩<br>Die Elternklasse "View"
+# 👨👩
+## Die Elternklasse: 
+# "View" 
 
 
 ## 🏞️ Was versteht man überhaupt unter einer View? <!-- .element: class="fragment semi-fade-out shrink" style="" -->
@@ -17,7 +19,7 @@
 - Ermöglicht die Erstellung benutzerdefinierter UI-Komponenten <!-- .element: class="fragment fade-in-then-semi-out shrink fade-up" style="" -->
 
 
-## Vererbung der View-Klasse <!-- .element: class="fragment semi-fade-out shrink" style="" -->
+## 🧬 Vererbung der View-Klasse <!-- .element: class="fragment semi-fade-out shrink" style="" -->
 <img data-src="./Slides/assets/Diagramm.svg"  height="500" width="1000"> <!-- .element: class="fragment fade-in" style="" -->
 
 
