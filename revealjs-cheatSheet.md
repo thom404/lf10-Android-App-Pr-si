@@ -116,7 +116,7 @@ Append to the URL:
 
 ## Code Highlighting
 ```
-<pre><code class="hljs" data-trim contenteditable>
+<pre><code class="hljs" data-trim contenteditable><script type="text/template">
 
 function linkify( selector ) {
   if( supports3DTransforms ) {
@@ -133,4 +133,4 @@ function linkify( selector ) {
   }
 }
 
-</code></pre>```
+</script</code></pre>```
