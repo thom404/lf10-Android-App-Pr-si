@@ -19,7 +19,7 @@
 
 ## ♨️ ImageView in Java <!-- .element: class="fragment semi-fade-out shrink" style="" -->
 <pre>
-    <code data-trim data-noescape data-line-numbers="5|7-9|11-14|">
+    <code data-trim data-noescape data-line-numbers="5|7-9|11-18|">
         <script type="text/template">
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -33,7 +33,10 @@ public class MainActivity extends AppCompatActivity {
  
         ImageView imageView = findViewById(R.id.imageView);
         imageView.setImageResource(R.drawable.example_image);
-        imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+        imageView.setScaleType(
+            ImageView
+            .ScaleType
+            .CENTER_CROP);
         imageView.setContentDescription("Beispielbild");
     }
 }
@@ -44,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 🇰 ImageView in Kotlin <!-- .element: class="fragment semi-fade-out shrink" style="" -->
 <pre>
-    <code data-trim data-noescape data-line-numbers="5|6-8|10-13|">
+    <code data-trim data-noescape data-line-numbers="5|6-8|10-15|16-21|22-26">
         <script type="text/template">
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
@@ -55,9 +58,21 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
  
-        val imageView: ImageView = findViewById(R.id.imageView)
-        imageView.setImageResource(R.drawable.example_image)
-        imageView.scaleType = ImageView.ScaleType.CENTER_CROP
+        val imageView: ImageView = findViewById
+        (
+            R
+            .id
+            .imageView
+        )
+        imageView.setImageResource
+        (
+            R
+            .drawable
+            .example_image
+        )
+        imageView.scaleType = ImageView
+        .ScaleType
+        .CENTER_CROP
         imageView.contentDescription = "Beispielbild"
     }
 }
