@@ -3,9 +3,8 @@
 
 
 # 📚 Quellen
-- [Link text Here](https://link-url-here.org)
-- [Link text Here](https://link-url-here.org)
-- [Link text Here](https://link-url-here.org)
+- https://developer.android.com/reference/android/view/View
+- https://developer.android.com/reference/android/widget/ImageView
 
 
 
