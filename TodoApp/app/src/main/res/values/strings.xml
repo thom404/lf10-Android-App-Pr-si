@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Todo App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="imageView_desc"><![CDATA[https://unsplash.com/photos/a-white-dog-standing-in-the-snow-looking-at-the-camera-gKaNaKpJyKE?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash]]></string>
+</resources>
