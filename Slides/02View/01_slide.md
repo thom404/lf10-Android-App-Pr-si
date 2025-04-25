@@ -33,7 +33,7 @@
     )
   
   /*Verarbeitet Touch-Events */
-  `onTouchEvent(MotionEvent event)`
+  onTouchEvent(MotionEvent event)
   </script>
 </code></pre>
 <!-- .element: class="fragment r-frame" style="" -->
